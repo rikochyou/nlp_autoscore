@@ -68,7 +68,7 @@ for _, row in df.iterrows():
         # "dlut":"1732696367729",
         }
     datalist.append(data)
-for data in datalist[9:]:
+for data in datalist:
     form_url_template = "${form_base}?emailAddress=${email}&entry.1939434776=${name}&entry.89701675=${mark1}&entry.481875799=${performance4}&entry.628682245=${mark2} \
     &entry.685734625=${group}&entry.1117921668=${performance1}&entry.1240154713=${mark3}&entry.1332179702=${performance3}&entry.1501265058=${mark4}&entry.1818015541=${sid} \
     &entry.1962655753=${performance2}&entry.918639263=${comment}"
