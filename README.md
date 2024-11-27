@@ -10,7 +10,7 @@
 3. 在autofill.py文件中注释里提示需要修改的地方改为实际的信息
 4. 代码中的`time.sleep(30)`秒是指30秒后会自动提交表单，如果觉得时间长，可酌情修改。
 需要安装这两个包，其他的包看报错提示进行安装
-'''
+```
 pip install selenium
 pip install pandas
-'''
+```
